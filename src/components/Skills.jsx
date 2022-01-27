@@ -19,7 +19,6 @@ export default function Skills() {
         getSkills();
     }, []);
 
-    console.log("Skills ~ skills", skills);
     return (
         <div className="section">
             <div className="container">
@@ -27,7 +26,7 @@ export default function Skills() {
                     <Fade right>
                         <h1 className="tamaño-bold">Skills</h1>
                     </Fade>
-                    <div className="skills-grid">
+                    <div className="skills-grid ">
                         {skills.map((skill, index) => (
                             <Fade right>
                                 <div className="skill" key={index}>

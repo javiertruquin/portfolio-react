@@ -125,7 +125,7 @@ body {
 }
 .primary-btn:hover {
     color: white;
-    background-color: rgba(0, 0, 0, 0.808);
+    background-color: rgba(0, 0, 0, 0.7);
 
 }
 .hover-fade{
@@ -133,7 +133,6 @@ body {
 }
 .hover-fade:hover{
     transform: scale(1.1);
-
 }
 
 /* Works */
@@ -162,16 +161,6 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
-
-/* @include media(">=phone", "<lgphone") {
-grid-template-columns: 1fr;
-}
-@include media(">=lgphone", "<tablet") {
-grid-template-columns: 1fr;
-}
-@include media(">=tablet", "<desktop") {
-grid-template-columns: 1fr 1fr;
-} */
 
 /* CardPro */
 .card {
@@ -249,34 +238,17 @@ background-position: center;
     }
 }
 
-
 .about-section h1 {
     font-size: 3rem;
     line-height: 20px;
-/* @include media(">=tablet", "<desktop") {
-    text-align: center;
-}
-}
-p {
-@include media(">=tablet", "<desktop") {
-    text-align: center;
-}
-} */
+
 }
 .about-section .image-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-/* @include media(">=phone", "<lgphone") {
-width: 100%;
-}
-@include media(">=lgphone", "<tablet") {
-width: 100%;
-}
-@include media(">=tablet", "<desktop") {
-width: 100%;
-} */
+
 }
 .about-section .imagen-about{
     align-items: center;
@@ -302,17 +274,6 @@ width: 100%;
     margin-top: 50px;
     grid-gap: 20px
 }
-/* @include media(">=phone", "<lgphone") {
-    grid-template-columns: 1fr;
-  }
-  @include media(">=lgphone", "<tablet") {
-    grid-template-columns: 1fr;
-  }
-  @include media(">=tablet", "<desktop") {
-    grid-template-columns: 1fr 1fr;
-  } */
-
-
 
 .skill {
     display: flex;
@@ -324,4 +285,23 @@ width: 100%;
 .skill img {
     height: 3rem;
     margin-bottom: 10px;
+}
+
+/* Contact */
+
+.email-contacto{
+    font-size: 1.5rem;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.email-contacto:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hover-icono{
+    transition: all 0.3s ease-in-out;
+}
+.hover-icono:hover{
+    transform: scale(1.2);
 }
