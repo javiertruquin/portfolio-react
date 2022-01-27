@@ -8,10 +8,10 @@ const About = () => {
                 <div className="about-section">
                     <div className="content">
                         <Fade right >
-                            <h1 className="tamaño-bold mb-5">Sobre mí</h1>
+                            <h1 className="tamaño-bold mb-5 text-nowrap ">Sobre mí</h1>
                         </Fade>
                         <Fade right>
-                            <p>
+                            <p className="tamaño-medium me-3">
                                 Hola, Soy Javier Truquin, soy programador
                                 front-end en javascript. Me esfuerzo en mejorar
                                 y aprender todo lo que sea necesario para nuevos

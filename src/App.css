@@ -65,6 +65,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-right: 0 !important;
 }
 
 .titulo-principal {
@@ -233,28 +234,22 @@ background-position: center;
     justify-content: space-around
 }
 
-/* @include media(">=phone", "<lgphone") {
-    flex-direction: column-reverse;
-}
-@include media(">=lgphone", "<tablet") {
-    flex-direction: column-reverse;
-}
-@include media(">=tablet", "<desktop") {
-    flex-direction: column-reverse;
-    align-items: center;
-} */
 .about-section .content {
     width: 50%;
-/* @include media(">=phone", "<lgphone") {
-width: 100%;
 }
-@include media(">=lgphone", "<tablet") {
-width: 100%;
+@media (max-width: 425px) {
+    .about-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        display: block;
+
+    }
+    .about-section .content {
+        width: 100%;
+    }
 }
-@include media(">=tablet", "<desktop") {
-width: 100%;
-} */
-}
+
+
 .about-section h1 {
     font-size: 3rem;
     line-height: 20px;
@@ -286,4 +281,47 @@ width: 100%;
 .about-section .imagen-about{
     align-items: center;
     height: 350px;
+}
+/* Skills */ 
+
+.skills-container {
+    width: 80vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills-container h1 {
+    font-size: 3rem;
+    line-height: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    grid-gap: 20px
+}
+/* @include media(">=phone", "<lgphone") {
+    grid-template-columns: 1fr;
+  }
+  @include media(">=lgphone", "<tablet") {
+    grid-template-columns: 1fr;
+  }
+  @include media(">=tablet", "<desktop") {
+    grid-template-columns: 1fr 1fr;
+  } */
+
+
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:10px ;
+}
+.skill img {
+    height: 3rem;
+    margin-bottom: 10px;
 }
