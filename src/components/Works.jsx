@@ -21,14 +21,14 @@ export default function Works() {
     }, []);
 
     return (
-        <div className="section" id="work">
-            <div className="container">
+        <div className="section my-5" id="work">
+            <div className="container mb-5">
                 <div className="work-wrapper">
                     <Fade right>
-                        <h1 className="tamaño-bold mt-5 mb-4">Trabajos</h1>
+                        <h1 className="tamaño-bold mt-5 mb-5">Trabajos</h1>
                     </Fade>
 
-                    <div className="grid ">
+                    <div className="grid mt-5">
                         {proyectos.map((pro, id) => (
                             <Fade right cascada>
                                 <CardPro key={id} data={pro} />

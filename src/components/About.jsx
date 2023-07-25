@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 const About = () => {
     return (
-        <div className="secion" id="about">
+        <div className="section fondo-gris" id="about">
             <div className="container">
                 <div className="about-section">
                     <div className="content">

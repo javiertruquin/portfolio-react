@@ -20,9 +20,9 @@ export default function Contact() {
     }, []);
 
     return (
-        <div className="section">
+        <div className="section fondo-gris">
             <div className="container">
-                <div className="skills-container">
+                <div className="contact-container">
                     <Fade right>
                         <h1 className="tamaño-bold">Contactame</h1>
                         <h2 className=" my-5">Creemos juntos tu próxima experiencia</h2>
