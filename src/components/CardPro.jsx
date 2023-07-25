@@ -15,8 +15,8 @@ export default function CardProyecto({ data }) {
                 }}
             >
                 <div className="content">
-                    <h1 className="header tamaño-bold">{titulo}</h1>
-                    <p className="text tamaño-medium">{descripcion}</p>
+                    <h1 className="tamaño-bold title-cards">{titulo}</h1>
+                    <p className="text-cards tamaño-medium">{descripcion}</p>
                     <a
                         href={link ? link : "#"}
                         target="_blank"
@@ -38,8 +38,8 @@ export default function CardProyecto({ data }) {
                 }}
             >
                 <div className="content">
-                    <h1 className="header tamaño-bold">{titulo}</h1>
-                    <p className="text tamaño-medium">{descripcion}</p>
+                    <h1 className="tamaño-bold">{titulo}</h1>
+                    <p className="tamaño-medium">{descripcion}</p>
                     <a
                         href={link ? link : "#"}
                         target="_blank"
