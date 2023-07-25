@@ -29,7 +29,7 @@ export default function Works() {
                     </Fade>
 
                     <div className="grid ">
-                        {proyectos.slice(0, 6).map((pro, id) => (
+                        {proyectos.map((pro, id) => (
                             <Fade right cascada>
                                 <CardPro key={id} data={pro} />
                             </Fade>
